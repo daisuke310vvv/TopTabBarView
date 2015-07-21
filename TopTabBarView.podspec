@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.screenshots     = "https://dl.dropboxusercontent.com/s/lzlrbrskn3423i8/topTabBarViewDemo.gif"
   s.license          = 'MIT'
   s.author           = { "Daisuke Sato" => "daisuke.sato1991@gmail.com" }
-  s.source           = { :git => "https://github.com/daisuke310vvv/TopTabBarView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/daisuke310vvv/TopTabBarView.git", :tag => s.version.to_s, :branch => 'master' }
   s.social_media_url = 'https://twitter.com/st_dsk'
 
   s.platform     = :ios, '8.0'

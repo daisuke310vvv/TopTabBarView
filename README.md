@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/TopTabBarView.svg?style=flat)](http://cocoapods.org/pods/TopTabBarView)
 [![Platform](https://img.shields.io/cocoapods/p/TopTabBarView.svg?style=flat)](http://cocoapods.org/pods/TopTabBarView)
 
+## Screenshots
+![topTabBarViewDemo.gif](https://raw.githubusercontent.com/daisuke310vvv/TopTabBarView/master/Screenshots/topTabBarViewDemo.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

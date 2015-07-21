@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A simple top tab bar view"
   s.homepage         = "https://github.com/daisuke310vvv/TopTabBarView"
-  s.screenshots     = "https://www.dropbox.com/s/lzlrbrskn3423i8/topTabBarViewDemo.gif"
+  s.screenshots     = "https://dl.dropboxusercontent.com/s/lzlrbrskn3423i8/topTabBarViewDemo.gif"
   s.license          = 'MIT'
   s.author           = { "Daisuke Sato" => "daisuke.sato1991@gmail.com" }
   s.source           = { :git => "https://github.com/daisuke310vvv/TopTabBarView.git", :tag => s.version.to_s }

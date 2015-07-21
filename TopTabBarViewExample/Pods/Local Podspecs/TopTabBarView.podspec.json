@@ -1,0 +1,25 @@
+{
+  "name": "TopTabBarView",
+  "version": "0.1.0",
+  "summary": "A simple top tab bar view",
+  "description": "                       An optional longer description of TopTabBarView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/daisuke310vvv/TopTabBarView",
+  "license": "MIT",
+  "authors": {
+    "Daisuke Sato": "daisuke.sato1991@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TopTabBarView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TopTabBarView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

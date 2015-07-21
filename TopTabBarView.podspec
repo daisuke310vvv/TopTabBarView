@@ -10,19 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "TopTabBarView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TopTabBarView."
-  s.description      = <<-DESC
-                       An optional longer description of TopTabBarView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TopTabBarView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A simple top tab bar view"
+  s.homepage         = "https://github.com/daisuke310vvv/TopTabBarView"
+  s.screenshots     = "https://www.dropbox.com/s/lzlrbrskn3423i8/topTabBarViewDemo.gif"
   s.license          = 'MIT'
   s.author           = { "Daisuke Sato" => "daisuke.sato1991@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TopTabBarView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/daisuke310vvv/TopTabBarView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/st_dsk'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -31,8 +25,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'TopTabBarView' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

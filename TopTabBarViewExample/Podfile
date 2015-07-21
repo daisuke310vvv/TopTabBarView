@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'TopTabBarViewExample',  :exclusive => true do
+  pod 'TopTabBarView',  :path => ".."
+end
+
+target 'TopTabBarViewExampleTests',  :exclusive => true do
+  pod "TopTabBarView",  :path => ".."
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
+

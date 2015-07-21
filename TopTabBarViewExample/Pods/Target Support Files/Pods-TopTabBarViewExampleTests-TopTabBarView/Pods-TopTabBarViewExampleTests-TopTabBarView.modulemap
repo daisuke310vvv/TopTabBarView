@@ -1,0 +1,6 @@
+framework module TopTabBarView {
+  umbrella header "Pods-TopTabBarViewExampleTests-TopTabBarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

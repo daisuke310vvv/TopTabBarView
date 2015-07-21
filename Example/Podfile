@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TopTabBarView_Example', :exclusive => true do
+  pod "TopTabBarView", :path => "../"
+end
+
+target 'TopTabBarView_Tests', :exclusive => true do
+  pod "TopTabBarView", :path => "../"
+
+  
+end
